@@ -38,7 +38,13 @@ GET  http://localhost:3000/list
 ## Testing the API
 Test these API using [Postman](https://www.getpostman.com/downloads/)
 
-### Add strA and strB using POST method
+## Instruction for the input of strings for some specific cases
+* Please do not post empty ```strA```
+It will show ```error: strA required ```
+
+If you want to post string ```strA``` empty then change the line 5 to  ```required: false``` into file ```strings-model.js``` which is located at ```/api/models/strings-model.js```
+
+### Add strA and strB using POST method to check
 * JSON Data 
 ```json
 {
@@ -46,4 +52,18 @@ Test these API using [Postman](https://www.getpostman.com/downloads/)
 	"strB": "acgb"
 }
 ```
+* or
+```json
+{
+	"strA": "abcdefg",
+	"strB": ""
+}
+```
 
+* or
+```json
+{
+	"strA": "abcdefg",
+	"strB": "aaa"
+}
+```
