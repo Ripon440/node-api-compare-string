@@ -4,7 +4,7 @@ This is a simple rest api to determine if a string is subset to another.
 
 ## Requirements
 
-- Node.js , npm , mongoDB
+- Node.js , npm , MongoDB
 
 ## Installation
 * Clone this repository:
