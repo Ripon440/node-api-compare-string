@@ -4,12 +4,16 @@ This is a simple rest api to determine if a string is subset to another.
 
 ## Requirements
 
-- Node , npm , mongoDB
+- Node.js , npm , mongoDB
 
 ## Installation
 * Clone this repository:
 ```
     $ git clone https://github.com/Ripon440/node-api-compare-string.git
+```
+
+```
+    $ cd node-api-compare-string
 ```
 * Install npm dependencies
 ```
