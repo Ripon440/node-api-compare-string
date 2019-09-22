@@ -1,0 +1,22 @@
+{
+  "name": "node-api-practice",
+  "version": "1.0.0",
+  "description": "This is rest api for the development purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "md ripon ali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1"
+  }
+}
