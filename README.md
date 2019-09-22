@@ -15,6 +15,9 @@ This is a simple rest api to determine if a string is subset to another.
 ```
     $ npm install
 ```
+
+*start mongod service
+
 * start the server
 ```
     $ npm start
@@ -31,8 +34,8 @@ GET  http://localhost:3000/list
 ## Testing the API
 Test these API using [Postman](https://www.getpostman.com/downloads/)
 
-### Add strA and strB using POST method,data
-
+### Add strA and strB using POST method
+*JSON Data 
 ```json
 {
 	"strA": "abcdefg",
