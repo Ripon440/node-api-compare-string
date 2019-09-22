@@ -6,12 +6,6 @@ This is a simple rest api to determine if a string is subset to another.
 
 - Node , npm , mongoDB
 
-<!-- ## Installation
-
-- Clone the repo: `git clone https://github.com/Ripon440/node-api-compare-string.git`
-- Install dependencies: `npm install`
-- Start the server: `npm start` -->
-
 ## Installation
 * Clone this repository:
 ```
@@ -29,9 +23,20 @@ This is a simple rest api to determine if a string is subset to another.
 # API Endpoints
 
 ```
-GET http://localhost:3000/add
-GET http://localhost:3000/list
+GET  http://localhost:3000/
+POST http://localhost:3000/add
+GET  http://localhost:3000/list
 ```
 
 ## Testing the API
 Test these API using [Postman](https://www.getpostman.com/downloads/)
+
+### Add strA and strB using POST method,data
+
+```json
+{
+	"strA": "abcdefg",
+	"strB": "acgb"
+}
+```
+

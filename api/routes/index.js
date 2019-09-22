@@ -5,6 +5,12 @@ const mongoose = require('mongoose');
 const fun = require('../functions/fun');
 const Str = require('../models/strings-model');
 
+router.get('/', (req, res, next) => {
+    res.status(200).json({
+        message: 'root url'
+    });
+});
+
 router.post('/add', (req, res, next) => {
 
     var strA =  req.body.strA;
